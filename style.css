@@ -69,6 +69,12 @@ a:hover {
 }
 
 .carousel-caption {
+  padding: 1rem;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.carousel-caption-1 {
   position: absolute;
   top: auto;
   bottom: 4rem;
@@ -79,12 +85,41 @@ a:hover {
   background-color: var(--dfa-dark-blue);
   z-index: 10;
 
-  padding: 1rem;
   color: var(--dfa-light-blue);
-  font-size: 0.9em;
-  text-align: left;
 
   box-shadow: 10px 10px 0 0px var(--dfa-blue);
+}
+
+.carousel-caption-2 {
+  position: absolute;
+  top: 2rem;
+  bottom: auto;
+  left: 9rem;
+  right: auto;
+  width: 13rem;
+  height: 8rem;
+  background-color: var(--dfa-light-pink);
+  z-index: 10;
+
+  color: var(--dfa-dark-pink);
+
+  box-shadow: 10px 10px 0 0px var(--dfa-pink);
+}
+
+.carousel-caption-3 {
+  position: absolute;
+  top: auto;
+  bottom: 4rem;
+  left: 8rem;
+  right: auto;
+  width: 13rem;
+  height: 8rem;
+  background-color: var(--dfa-dark-green);
+  z-index: 10;
+
+  color: var(--dfa-light-green);
+
+  box-shadow: 10px 10px 0 0px var(--dfa-green);
 }
 
 /* Declare heights because of positioning of img element */
