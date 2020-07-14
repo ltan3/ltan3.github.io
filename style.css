@@ -47,14 +47,7 @@
   color: var(--dfa-dark-blue) !important;
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-}
+/* GLOBAL STYLES */
 
 a:hover {
   text-decoration: underline !important;
