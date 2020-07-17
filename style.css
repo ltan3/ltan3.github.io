@@ -5,14 +5,20 @@
   --dfa-pink: #F6539E;
   --dfa-green: #B5E100;
   --dfa-blue: #1082D7;
+  --dfa-orange: #FD861F;
+  --dfa-purple: #C14AE1;
   --dfa-dark-yellow: #C08A00;
   --dfa-dark-pink: #AA195C;
   --dfa-dark-green: #5D7400;
   --dfa-dark-blue: #1B3862;
+  --dfa-dark-orange: #A74D00;
+  --dfa-dark-purple: #6F038B;
   --dfa-light-yellow: #FFFB98;
   --dfa-light-pink: #FFADD3;
   --dfa-light-green: #E4FF75;
   --dfa-light-blue: #B4DFFF;
+  --dfa-light-orange: #FFCC6A;
+  --dfa-light-purple: #ECA4FF;
 }
 
 .bg-yellow {
@@ -49,7 +55,7 @@
 
 /* GLOBAL STYLES */
 
-a:hover {
+a.active, a:hover {
   text-decoration: underline !important;
 }
 
@@ -86,12 +92,12 @@ a:hover {
   right: auto;
   width: 13rem;
   height: 8rem;
-  background-color: var(--dfa-light-pink);
+  background-color: var(--dfa-light-orange);
   z-index: 10;
 
-  color: var(--dfa-dark-pink);
+  color: var(--dfa-dark-orange);
 
-  box-shadow: 10px 10px 0 0px var(--dfa-pink);
+  box-shadow: 10px 10px 0 0px var(--dfa-orange);
 }
 
 .carousel-caption-3 {
@@ -128,5 +134,10 @@ a:hover {
 
 .intro b {
   font-weight: 600;
+}
+
+.first-sentence {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
